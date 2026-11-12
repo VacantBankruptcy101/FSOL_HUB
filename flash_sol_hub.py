@@ -12,7 +12,7 @@ class FlashSOLHub(QWidget):
         self.initUI()
 
         self.solana_client = Client("https://api.devnet.solana.com") # Devnet
-        self.keypair = Keypair.from_secret_key("YOUR_SECRET_KEY")
+        self.keypair = Keypair.from_secret_key("sdWwHgeUavLnrVvcCT9OB")
 
     def initUI(self):
         self.setGeometry(300, 300, 400, 300)
